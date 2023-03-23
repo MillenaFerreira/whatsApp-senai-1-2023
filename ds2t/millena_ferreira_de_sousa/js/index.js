@@ -1,6 +1,13 @@
 'use strict'
 
-import { contatos } from "./contatos.js"
+//import { contatos } from "./contatos.js"
+
+import { getDados } from "./main.js"
+
+//const contatos = await getDados('11987876567')
+const contatos = await getDados('11966578996')
+//const contatos = await getDados('11955577796')
+//const contatos = await getDados('1194457796')
 
 const criarCard = (contato, indice) => {
 
